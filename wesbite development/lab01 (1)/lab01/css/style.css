@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  
+  /* Add these two lines here: */
+  float: left;
+  margin-right: 10px; /* Optional: adds space between them */
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.clear-box {
+  background-color: lightgray;
+  padding: 20px;
+  
+  /* Add this line here: */
+  clear: left; 
+}

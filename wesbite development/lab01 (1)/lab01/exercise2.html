@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Document</title>
+    <style>
+        /* Previous Classes */
+        p.gray {
+            background-color: gray;
+            font-weight: bold;
+        }
+
+        p.red {
+            background-color: red;
+            font-style: italic;
+        }
+
+        p.purple {
+            background-color: purple;
+            color: white;
+        }
+
+        .important {
+            font-size: 250%;
+        }
+
+        /* --- New ID Styles --- */
+
+        /* ID: #fuchsia (background color is fuchsia) */
+        #fuchsia {
+            background-color: fuchsia;
+        }
+
+        /* ID: #uppercase (text transformed to uppercase) */
+        #uppercase {
+            text-transform: uppercase;
+        }
+
+        /* ID: #bigwords (font size increased to 200%, green text color) */
+        #bigwords {
+            font-size: 200%;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>First Main Heading</h1>
+    <h1 class="important">Second Heading (Important)</h1>
+
+    <p>This is the first paragraph (normal style).</p>
+    
+    <!-- Second paragraph with class 'gray' and ID 'fuchsia' -->
+    <p class="gray" id="fuchsia">This is the second paragraph with the gray class and fuchsia ID applied.</p>
+    
+    <!-- Third paragraph with class 'red' and ID 'uppercase' -->
+    <p class="red" id="uppercase">This is the third paragraph with the red class and uppercase ID applied.</p>
+    
+    <!-- Fourth paragraph with class 'purple' containing a span with ID 'bigwords' -->
+    <p class="purple">This is the fourth paragraph with <span id="bigwords">bigwords</span> applied to this span element.</p>
+    
+    <p>This is an intermediate paragraph.</p>
+    
+    <p class="important">This is the last paragraph with the important class applied (250% font size).</p>
+
+</body>
+</html>
